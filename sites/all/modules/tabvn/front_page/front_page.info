@@ -1,0 +1,13 @@
+name = front_page
+description = Front page
+core = 7.x
+package = Tabvn
+version = 7.x-1.0
+project = front_page
+dependencies[] = ctools
+dependencies[] = custom
+dependencies[] = page_manager
+dependencies[] = panels
+features[ctools][] = page_manager:pages_default:1
+features[features_api][] = api:1
+features[page_manager_pages][] = front_page
