@@ -83,7 +83,8 @@
       $content_class .= ' blog-entry-list';
     }
     ?>
-    <?php if ($title): ?>
+    
+    <?php if (($title)&&(!drupal_is_front_page())): ?>
       <header id="page-header">
         <h1 id="page-title"><?php print $title; ?></h1>	
       </header>

@@ -203,3 +203,29 @@ function custom_block_get_title($delta) {
 
   return $block->title ? $block->title : '';
 }
+
+
+// added - moves link_list content to sidebar_second
+
+function custom_page_alter(&$page) {
+if(isset($page['content']['system_main']['nodes'])) {
+	foreach($page['content']['system_main']['nodes'] as $nid => $nodes) {  			
+
+	if(isset($page['content']['system_main']['nodes'][$nid]['field_link_list'])) {
+
+//	if($page['content']['system_main']['nodes'][$nid]['body']['#bundle'] == 'innerpage') {
+	$page['content']['system_main']['nodes'][$nid]['field_link_list']['#label_display'] ='hidden'; 
+	$page['content']['system_main']['nodes'][$nid]['field_page_image']['#label_display'] ='hidden'; 
+	$page['sidebar_second']['system_main']['nodes'][$nid]['field_link_list'] = 	$page['content']['system_main']['nodes'][$nid]['field_link_list'];
+	unset($page['content']['system_main']['nodes'][$nid]['field_link_list']);
+			}
+		}	
+	}
+//   $page['sidebar_second']['system_main']['nodes'][$node->nid] =   $page['content']['system_main']['nodes'];
+
+//   unset($page['content']['field_link_list']);
+ 
+  // Remove the "powered by Drupal" block
+//    $page['sidebar_second']['search_form'] = $page['footer']['system_powered-by']; 
+//   unset($page['footer']['system_powered-by']);
+}

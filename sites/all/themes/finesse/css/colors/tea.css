@@ -1,0 +1,320 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ---------------------------------------------------------------------- */
+/* Theme Information
+/* ----------------------------------------------------------------------
+Name: Finesse
+Description: Responsive Business Theme
+Version: 2.2
+Author: Ixtendo
+Author URI: http://www.ixtendo.com
+------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- */
+/* Finesse Teal Styles
+/* ----------------------------------------------------------------------
+TABLE OF CONTENTS
+
+-Text
+-Background Colors
+-Sprites
+-Borders
+-Media Player
+------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- */
+/* Text
+/* ---------------------------------------------------------------------- */
+a, a > *,
+#polyglotLanguageSwitcher a:hover, #footer-top a,
+#footer-bottom a:hover,
+#footer-top .tweet_time a:hover,
+ul#search-results h2 a:hover, ul#search-results h2 a:hover strong, 
+.widget ul.menu li > a:hover, .widget ul.menu li.current-menu-item > a,
+.tabs ul.nav li a:hover, .tabs ul.nav li.ui-tabs-selected a,
+span.toggle-title:hover, span.accordion-title:hover, span.toggle-title.ui-state-active, span.accordion-title.ui-state-active,
+.pricing-table .featured span.price span,
+ol.comment-list .comment-author a:hover,
+.flex-caption a:hover,
+.entry-title a:hover,
+.iconbox h4 a:hover {
+	color: #FFBF00;
+}
+
+.entry-title a:link,
+.entry-title a:visited,
+.entry-title a:active {
+	color: #003C77;
+}
+
+.entry-title a:hover {
+	color: #383838;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Background Colors
+/* ---------------------------------------------------------------------- */
+.flex-direction-nav a:link, .flex-direction-nav a:visited,
+.entry-slider-nav a { /* position here is important */ 
+	background-color: rgba(255,191,0,0.8);
+}
+
+.button, .content-form input.button, #comment-form input.button,
+.flex-direction-nav a:hover, .flex-direction-nav a:active,
+.ie8 .flex-direction-nav a:link, .ie8 .flex-direction-nav a:visited,
+.ie8 .flex-direction-nav a:hover, .ie8 .flex-direction-nav a:active,
+.jcarousel-prev:hover, .jcarousel-prev:focus,
+.jcarousel-next:hover, .jcarousel-next:focus,
+.entry-slider-nav a:hover, .entry-slider-nav a:active,
+a.post-format-wrap:hover .post-format, #toTopHover,
+.page-nav a:hover,
+ul.tags a:hover, 
+.page-nav li.current,
+.button.black:hover,
+#filter a:hover, #filter li.active a,
+.pricing-box.featured .header,
+.highlight.colored,
+.flex-control-paging a.flex-active,
+ul#navlist li.current a,
+.ddsubmenustyle li a:hover,
+.ie8 .entry-slider-nav a,a.tagadelic:hover {
+	background-color: #FFBF00;
+}
+
+a.post-format:hover {
+	background-color: #bfbfbf;
+}
+
+.pricing-box.featured .title {
+    background-color: #047a8c;
+}
+
+.gen-table tbody tr:hover th, .gen-table tbody tr:hover td {
+	background-color: #ebf8fa;	
+}
+
+/* HTML5 Reset CSS Rewriting */
+
+/* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
+::-moz-selection {background: #FFBF00;}
+::selection {background: #FFBF00;} 
+
+ins, mark {background-color: #FFBF00;}
+
+/* ---------------------------------------------------------------------- */
+/* Sprites
+/* ---------------------------------------------------------------------- */
+.social-links a:hover {
+	background-position: left -200px; 
+}
+
+.team-member .social-links a:hover {
+	background-position: left -136px;
+}
+
+.iconbox-icon {
+	background-position: left -301px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Borders
+/* ---------------------------------------------------------------------- */
+.pricing-box.featured .header {
+	 border-color: #047a8c;
+}
+
+ul#navlist li.current a,
+.ddsubmenustyle li a:hover,
+.infobox { 
+	border-color: #FFBF00;
+}
+
+
+.infobox { 
+	border-left: solid 5px #FFBF00;
+	background: #E7E8E1;
+	background: rgba(231,232,225,1);
+}
+
+.infobox-inner {
+	background: #E7E8E1;
+	background: rgba(231,232,225,1);
+}
+
+.infobox h2 {
+	font-size: 24px;
+	color: #003C77;
+}
+
+.infobox p {
+	font-size: 14px;
+	color: #52594C;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Media Player
+/* ---------------------------------------------------------------------- */
+.mejs-controls .mejs-time-rail .mejs-time-loaded {
+	background: #FFBF00;
+	background: rgba(255,191,0,0.8);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(4,122,140,0.8)), to(rgba(255,191,0,0.8))); 
+	background: -webkit-linear-gradient(top, rgba(4,122,140,0.8), rgba(255,191,0,0.8));
+	background: -moz-linear-gradient(top, rgba(4,122,140,0.8), rgba(255,191,0,0.8));
+	background: -o-linear-gradient(top, rgba(4,122,140,0.8), rgba(255,191,0,0.8));
+	background: -ms-linear-gradient(top, rgba(4,122,140,0.8), rgba(255,191,0,0.8));
+	background: linear-gradient(rgba(4,122,140,0.8), rgba(255,191,0,0.8));
+}
+
+.mejs-controls .mejs-button button:focus {
+	outline-color: #FFBF00;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Pane Content
+/* ---------------------------------------------------------------------- */
+
+h1, h2, h3, h4, h5 {
+	color: #003c77;	
+}
+
+
+/* ---------------------------------------------------------------------- */
+/* innerpage styles
+/* ---------------------------------------------------------------------- */
+
+
+article.node-innerpage {
+	font-size: 14px;
+	color: #52594c;	
+	line-height: 22px;
+}
+
+article.node-innerpage 	.target-text 
+{
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 6px;
+}
+
+article.node-innerpage ul li {
+	margin-left: 2em;
+}
+
+
+article.node-innerpage ul li 
+{
+	background-image: url("../../images/bullets-and-arrows/square.png");
+	background-repeat: no-repeat;
+	background-position: 0px 9px;
+	padding-left: 11px;
+	margin-bottom: 14px;
+}
+
+article.node-innerpage ul li ul li {
+	background-image: url("../../images/bullets-and-arrows/check.png");
+	background-repeat: no-repeat;
+	background-position: 0px 7px;
+	padding-left: 13px;		
+	margin-bottom: 0px;
+}
+
+
+/* ---------------------------------------------------------------------- */
+/* innerpage infobox
+/* ---------------------------------------------------------------------- */
+
+
+article.node-innerpage .infobox {
+border-top: solid 1px #cccccc;
+border-right: solid 1px #cccccc;
+}
+
+article.node-innerpage .infobox h2 {
+	font-size: 130%;
+}
+
+article.node-innerpage .infobox-inner {
+	background-color: #E5EBF1;
+		border-bottom: solid 1px #cccccc;
+
+}
+
+article.node-innerpage .infobox-inner ul {
+	display: inline;
+	position: relative;
+	float: left;
+}
+
+article.node-innerpage .infobox-inner ul li {
+	display: block inline;
+ 	width: 140px;
+	float: left;
+	clear: all;
+	margin-right: 2em;
+		margin-bottom: 6px;
+}
+
+.field-name-field-link-list p,
+.field-name-field-link-list h3 {
+	color: #003c77;
+	font-weight: normal;
+	font-size: 160%;
+	padding-left: .6em;
+} 
+
+.field-name-field-link-list ul {
+/* 	list-style-position: inside; */
+/* 	list-style: url("../../images/bullets-and-arrows/arrow-right.png") !important; */
+}
+
+.field-name-field-link-list ul li {
+	padding-left: 14px;
+	border-bottom: dotted 1px #52594c;
+	padding: 8px 0 8px 0;
+}
+
+.field-name-field-link-list ul li a:link, 
+.field-name-field-link-list ul li a:active, 
+.field-name-field-link-list ul li a:visited 
+{
+	background-image: url("../../images/bullets-and-arrows/arrow-right.png");
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	font-size: 12px;
+	color: #52594c;	
+	padding-left: 11px;
+}
+
+.field-name-field-link-list ul li a:hover {
+		color: #FFBF00;	
+} 
+
+
+/* available images... 
+images/bullets-and-arrows/arrow-right.png
+images/bullets-and-arrows/check.png
+images/bullets-and-arrows/circle.png
+images/bullets-and-arrows/square.png
+ */
+
+ul.what li {
+	background-image: url("../../images/bullets-and-arrows/circle.png");
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-left: 9px;
+	line-height: 12px;
+	padding-bottom: 8px;
+}
+
+.entry-title {
+	padding-top: 6px;
+	padding-bottom: 1px;
+	line-height: 14px;
+}
+
+
+

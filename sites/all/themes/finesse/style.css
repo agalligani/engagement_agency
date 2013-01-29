@@ -112,8 +112,8 @@ ul {
 /* Containers
 /* ---------------------------------------------------------------------- */
 #wrap {
-	border-top: 5px solid #383838;
-	padding-top: 30px;
+	border-top: 6px solid #003C77;
+	padding-top: 5px;
 	overflow: hidden;
 }
 
@@ -259,7 +259,7 @@ mark {
 /* Header
 /* ---------------------------------------------------------------------- */
 #header-top {
-	margin-bottom: 30px;
+	margin-bottom: 6px;
 }
 
 #header-top .one-half.column-last {
@@ -343,15 +343,16 @@ mark {
 
 ul#navlist li {
 	float: left;
-	min-width: 8.666em; /* 104px */
+/*	min-width: 8.666em; /* 104px */
+	min-width: 5.8em; /* ???px */
 }
 
 ul#navlist li a { 
 	display: block;
-	font-weight: bold;
-	padding: 10px 20px;	
+	font-weight: normal;
+	padding: 10px 12px;	
 	text-align: center;
-	color: #383838;
+	color: #003C77;
 	border: 1px solid #e5e5e5;
 	border-left: none;
 	box-shadow: 1px 0 rgba(255,255,255,0.75);
@@ -491,7 +492,7 @@ input[type="submit"] {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 174px;
+	width: 162px;
 	height: 1.333em; /* 16px */
 	padding: 0.5em 36px 0.5em 10px; /* 6px 36px 6px 10px */
 	border: none;
@@ -965,6 +966,7 @@ a.post-format-wrap,
 .entry-meta > span {
 	margin-bottom: 5px;	
 	font-style: italic;
+	display: none;
 }
 
 .post-format {
@@ -974,7 +976,9 @@ a.post-format-wrap,
 	margin-bottom: 10px !important;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-color: #bfbfbf;	
+/* 	background-color: #bfbfbf;	 */
+	background-color: #ffbf00;
+	background-color: #E5B933;
 	text-indent: -10000em;
 }
 
